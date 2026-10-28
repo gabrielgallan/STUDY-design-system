@@ -1,0 +1,3 @@
+{
+    "extends": "@ignite-ui/tsconfig/react.json"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "@ignite-ui/react",
+    "version": "0.0.1",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsup src/index.tsx --format cjs,esm --dts --external react",
+        "dev": "tsup src/index.tsx --format cjs,esm --dts --watch --external react",
+        "format": "biome format --write .",
+        "check": "biome check .",
+        "check:fix": "biome check --write ."
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@ignite-ui/tokens": "*",
+        "@ignite-ui/tsconfig": "*",
+        "@types/react": "^19.3.0",
+        "@types/react-dom": "^19.3.0",
+        "react": "^19.3.1",
+        "tsup": "^9.0.0",
+        "typescript": "6"
+    },
+    "dependencies": {
+        "@stitches/react": "^1.2.8"
+    }
+}
