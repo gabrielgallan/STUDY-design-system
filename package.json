@@ -1,9 +1,15 @@
 {
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "@biomejs/biome": "^2.6.3"
-  }
+    "private": true,
+    "packageManager": "npm@11.6.2",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "turbo run dev --parallel",
+        "build": "turbo run build"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.6.3",
+        "turbo": "^2.11.10"
+    }
 }

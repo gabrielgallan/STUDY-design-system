@@ -1,36 +1,3 @@
-import type { ComponentProps } from 'react';
-import { styled } from './styles';
-
-export type ButtonProps = ComponentProps<'button'> & {
-    size?: 'small' | 'big';
-};
-
-export const Button: React.FC<ButtonProps> = styled('button', {
-    fontFamily: '$default',
-    backgroundColor: '$ignite300',
-    borderRadius: '$sm',
-    border: 0,
-    fontWeight: '$bold',
-    color: '$white',
-
-    variants: {
-        size: {
-            small: {
-                fontSize: 14,
-                padding: '$2 $4',
-            },
-            big: {
-                fontSize: 16,
-                padding: '$3 $6',
-            },
-        },
-    },
-
-    defaultVariants: {
-        size: 'small',
-    },
-});
-
-export function App() {
-    return <Button>Hello world!</Button>;
-}
+export * from './components/Box';
+export * from './components/Button';
+export * from './components/Text';
