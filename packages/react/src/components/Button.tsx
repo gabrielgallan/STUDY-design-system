@@ -1,32 +1,92 @@
 import type { ComponentProps } from 'react';
 import { styled } from '../styles';
 
-export interface ButtonProps extends ComponentProps<'button'> {
-    size?: 'small' | 'big';
-}
+export interface ButtonProps extends ComponentProps<'button'> {}
 
 export const Button: React.FC<ButtonProps> = styled('button', {
-    fontFamily: '$default',
-    backgroundColor: '$ignite300',
+    all: 'unset',
     borderRadius: '$sm',
+    backgroundColor: '$ignite300',
     border: 0,
-    fontWeight: '$bold',
     color: '$white',
+    fontFamily: '$default',
+    fontWeight: '$medium',
+    fontSize: '$sm',
+    textAlign: 'center',
+    minWidth: 120,
+    boxSizing: 'border-box',
+
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '$2',
+    padding: '$0 $4',
+
+    cursor: 'pointer',
+
+    svg: {
+        width: '$4',
+        height: '$4',
+    },
+
+    '&:disabled': {
+        cursor: 'not-allowed',
+    },
 
     variants: {
-        size: {
-            small: {
-                fontSize: 14,
-                padding: '$2 $4',
+        variant: {
+            primary: {
+                color: '$white',
+                backgroundColor: '$ignite500',
+
+                '&:not(:disabled):hover': {
+                    backgroundColor: '$ignite300',
+                },
+
+                '&:disabled': {
+                    backgroundColor: '$gray200',
+                },
             },
-            big: {
-                fontSize: 16,
-                padding: '$3 $6',
+            secondary: {
+                color: '$ignite300',
+                border: '2px solid $ignite500',
+
+                '&:not(:disabled):hover': {
+                    backgroundColor: '$ignite500',
+                    color: '$white',
+                },
+
+                '&:disabled': {
+                    backgroundColor: '$gray200',
+                    borderColor: '$gray200',
+                },
+            },
+            tertiary: {
+                color: '$gray100',
+                backgroundColor: 'transparent',
+                border: '2px solid $gray100',
+
+                '&:not(:disabled):hover': {
+                    color: '$white',
+                },
+
+                '&:disabled': {
+                    borderColor: '$gray600',
+                },
+            },
+        },
+        size: {
+            sm: {
+                height: 38,
+            },
+            md: {
+                height: 46,
             },
         },
     },
 
     defaultVariants: {
-        size: 'small',
+        variant: 'primary',
+        size: 'md',
     },
 });
