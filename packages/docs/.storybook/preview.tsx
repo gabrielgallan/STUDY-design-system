@@ -3,6 +3,9 @@ import { themes } from 'storybook/theming/create';
 
 const preview: Preview = {
     parameters: {
+        docs: {
+            theme: themes.dark,
+        },
         backgrounds: {
             options: {
                 dark: { name: 'Dark', value: '#121214' },
@@ -25,9 +28,6 @@ const preview: Preview = {
     },
     initialGlobals: {
         backgrounds: { value: 'dark' },
-    },
-    docs: {
-        theme: themes.dark,
     },
 };
 
