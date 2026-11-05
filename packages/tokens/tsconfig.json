@@ -1,5 +1,5 @@
 {
-  "extends": "@ignite-ui/tsconfig/base.json",
-  "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+    "extends": "@gallan-ignite-ui/tsconfig/base.json",
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
 }

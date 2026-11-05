@@ -1,4 +1,4 @@
-import { Box, MultiStep, type MultiStepProps } from '@ignite-ui/react';
+import { Box, MultiStep, type MultiStepProps } from '@gallan-ignite-ui/react';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {
@@ -18,11 +18,7 @@ const meta = {
     },
     decorators: [
         (Story) => {
-            return (
-                <Box css={{ width: '100%', maxWidth: 400 }}>
-                    {Story()}
-                </Box>
-            );
+            return <Box css={{ width: '100%', maxWidth: 400 }}>{Story()}</Box>;
         },
     ],
 } satisfies Meta<MultiStepProps>;

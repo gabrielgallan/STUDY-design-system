@@ -1,5 +1,5 @@
 {
-    "name": "@ignite-ui/docs",
+    "name": "@gallan-ignite-ui/docs",
     "version": "0.0.1",
     "type": "module",
     "scripts": {
@@ -14,9 +14,9 @@
     },
     "devDependencies": {
         "@chromatic-com/storybook": "latest",
-        "@ignite-ui/react": "*",
-        "@ignite-ui/tokens": "*",
-        "@ignite-ui/tsconfig": "*",
+        "@gallan-ignite-ui/react": "*",
+        "@gallan-ignite-ui/tokens": "*",
+        "@gallan-ignite-ui/tsconfig": "*",
         "@storybook/addon-a11y": "^10.6.5",
         "@storybook/addon-docs": "^10.6.5",
         "@storybook/addon-onboarding": "^10.6.5",

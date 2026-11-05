@@ -1,5 +1,5 @@
 {
-  "extends": "@ignite-ui/tsconfig/react.json",
-  "include": ["src"],
-  "exclude": ["node_modules", "dist"]
+    "extends": "@gallan-ignite-ui/tsconfig/react.json",
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
 }

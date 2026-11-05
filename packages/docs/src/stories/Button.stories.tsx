@@ -1,4 +1,4 @@
-import { Button, type ButtonProps } from '@ignite-ui/react';
+import { Button, type ButtonProps } from '@gallan-ignite-ui/react';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 export default {

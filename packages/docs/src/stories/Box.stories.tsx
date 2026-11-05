@@ -1,4 +1,4 @@
-import { Box, type BoxProps, Text } from '@ignite-ui/react';
+import { Box, type BoxProps, Text } from '@gallan-ignite-ui/react';
 import type { Meta, StoryObj } from '@storybook/react';
 
 export default {
