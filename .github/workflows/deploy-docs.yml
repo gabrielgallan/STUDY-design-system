@@ -23,6 +23,6 @@ jobs:
               run: npm run build
 
             - name: Deploy Storybook
-              run: npm run deploy -- --ci --existing-output-dir=storybook-static
+              run: npm run deploy --workspace @ignite-ui/docs -- --ci --existing-output-dir=storybook-static
               env:
                   GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
