@@ -1,0 +1,4 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{i as t,r as n}from"./react-BhuJ7Fh2.js";import{t as r}from"./jsx-runtime-MKhVqBIO.js";import{a as i,o as a}from"./blocks-DRODzJxh.js";import{a as o,c as s}from"./dist-jNdFgQvK.js";import{n as c,t as l}from"./TokensGrid-DLXowROw.js";function u(e){let n={h1:`h1`,p:`p`,...t(),...e.components};return(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(i,{title:`Tokens/Spaces`}),`
+`,(0,f.jsx)(n.h1,{id:`spaces`,children:`Spaces`}),`
+`,(0,f.jsx)(n.p,{children:`Essas são as unidades de espaço utilizadas no Ignite UI.`}),`
+`,(0,f.jsx)(l,{tokens:s})]})}function d(e={}){let{wrapper:n}={...t(),...e.components};return n?(0,f.jsx)(n,{...e,children:(0,f.jsx)(u,{...e})}):u(e)}var f;function p(){return(p=e((()=>{f=r(),n(),a(),c(),o()})))()}p();export{d as default};
