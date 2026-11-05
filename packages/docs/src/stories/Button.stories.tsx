@@ -6,6 +6,20 @@ export default {
     component: Button,
 
     args: { children: 'Send' },
+
+    argTypes: {
+        variant: {
+            control: { type: 'inline-radio' },
+            options: ['primary', 'secondary', 'tertiary'],
+        },
+        size: {
+            control: { type: 'inline-radio' },
+            options: ['sm', 'md'],
+        },
+        disabled: {
+            control: { type: 'boolean' },
+        },
+    },
 } as Meta<ButtonProps>;
 
 export const Primary: StoryObj<ButtonProps> = {};

@@ -1,4 +1,4 @@
-import * as AvatarPrimitive from '@radix-ui/react-avatar';
+import type * as AvatarPrimitive from '@radix-ui/react-avatar';
 import { User } from 'phosphor-react';
 import type { ComponentProps } from 'react';
 import { AvatarContainer, AvatarFallback, AvatarImage } from './styles';
