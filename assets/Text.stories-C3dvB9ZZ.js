@@ -1,0 +1,6 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{s as t,u as n}from"./dist-CFCJHOML.js";var r,i,a,o;function s(){return(s=e((()=>{n(),r={title:`Typography/Text`,component:t,args:{size:`md`,children:`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.`},argTypes:{size:{options:[`xxs`,`xs`,`sm`,`md`,`lg`,`xl`,`2xl`,`4xl`,`5xl`,`6xl`,`7xl`,`8xl`,`9xl`],control:{type:`inline-radio`}}}},i={},a={args:{children:`Strong text`,as:`strong`}},o=[`Primary`,`CustomTag`],i.parameters={...i.parameters,docs:{...i.parameters?.docs,source:{originalSource:`{}`,...i.parameters?.docs?.source}}},a.parameters={...a.parameters,docs:{...a.parameters?.docs,source:{originalSource:`{
+  args: {
+    children: 'Strong text',
+    as: 'strong'
+  }
+}`,...a.parameters?.docs?.source}}}})))()}s();export{a as CustomTag,i as Primary,o as __namedExportsOrder,r as default};

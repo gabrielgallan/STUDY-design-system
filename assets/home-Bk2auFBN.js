@@ -1,0 +1,3 @@
+import{n as e}from"./rolldown-runtime-sJBDdmOt.js";import{i as t,r as n}from"./react-D1UnCKPE.js";import{t as r}from"./jsx-runtime-MKhVqBIO.js";import{a as i,o as a}from"./blocks-BhUiRPe7.js";function o(e){let n={h1:`h1`,p:`p`,...t(),...e.components};return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(i,{title:`Home`}),`
+`,(0,c.jsx)(n.h1,{id:`ignite-ui`,children:`Ignite UI`}),`
+`,(0,c.jsx)(n.p,{children:`Design System do Ignite`})]})}function s(e={}){let{wrapper:n}={...t(),...e.components};return n?(0,c.jsx)(n,{...e,children:(0,c.jsx)(o,{...e})}):o(e)}var c;function l(){return(l=e((()=>{c=r(),n(),a()})))()}l();export{s as default};
