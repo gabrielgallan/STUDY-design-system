@@ -33,6 +33,10 @@ export const Button: React.FC<ButtonProps> = styled('button', {
         cursor: 'not-allowed',
     },
 
+    '&:focus': {
+        boxShadow: '0 0 0 2px $colors$ignite300',
+    },
+
     variants: {
         variant: {
             primary: {
